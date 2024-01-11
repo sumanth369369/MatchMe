@@ -19,9 +19,9 @@ let countdown;
 const quizArray = [
     {
         id: "0",
-        question: "SELECT ANY OPTION IF RED OUR FAVORITE IS WRONG?",
-        options: ["SELECT ANY ", "OPTION ", "RED ", "GREEN"],
-        correct: "GREEN",
+        question: "WHATS IS YOUR FAV WEB SERIES?",
+        options: ["FRIENDS ", "STRANGER THINGS ", "BREAKING BAD ", "WEDNESDAY"],
+        correct: "STRANGER THINGS",
     },
     {
         id: "1",
@@ -38,8 +38,8 @@ const quizArray = [
     {
         id: "3",
         question: "WHAT IS YOUR HOBBIES?",
-        options: ["BOOK READING", "CRICKET", "GOLF", "WALKING"],
-        correct: "GOLF",
+        options: ["BOOK READING", "CRICKET", "GYM", "WALKING"],
+        correct: "CRICKET",
     },
     {
         id: "4",
@@ -50,19 +50,19 @@ const quizArray = [
     {
         id: "5",
         question: "DO YOU THINK JAVA AND JAVASCRIPT ARE SAME",
-        options: ["yES ", "NoPE", "CONCEPTS", "DO NOT KNOW"],
+        options: ["Yes ", "NoPE", "CONCEPTS", "DO NOT KNOW"],
         correct: "NoPE",
     }, {
         id: "6",
-        question: "HOW FAV CHARACTER IN RRR",
-        options: ["RAM ", "NTR", "NO ONE", "RGV"],
-        correct: "RAM",
+        question: "HOW FAV CHARACTER IN STRANGER THINGS",
+        options: ["ELEVEN", "SUZIE", "DUSTIN", "MIKE"],
+        correct: "SUZIE",
     },
     {
         id: "7",
         question: "WHO IS YOUR FAV DIRECTOR",
-        options: ["PURI JAGANATH", "RAM GOPAL VARMA", "SS RAJAMOULI", "SJ SURYA"],
-        correct:"SJ SURYA",
+        options: ["PURI JAGANNATH", "RAM GOPAL VARMA", "SS RAJAMOULI", "SJ SURYA"],
+        correct: "SJ SURYA",
     },
     {
         id: "8",
@@ -72,8 +72,8 @@ const quizArray = [
     },
     {
         id: "9",
-        question: "DO YOU USE CLUBHOUSE?",
-        options: ["YES", "NO", "START OVER", "EXIST"],
+        question: "HAVE YOU WATCHED FALL 2022 MOVIE?",
+        options: ["YES", "NO", "TRY IT", "NO TIME"],
         correct: "YES",
     },
 ];
