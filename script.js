@@ -14,14 +14,14 @@ let scoreCount = 0;
 let count = 11;
 let countdown;
 
-//Questions and Options array
+//Questions and Options Array
 
 const quizArray = [
     {
         id: "0",
-        question: "What IS YOUR FAV WEBSERIES?",
-        options: ["STRANGER THINGS", "BREAKING BAD", "FRIENDS", "MONEY HEIST"],
-        correct: "FRIENDS",
+        question: "SELECT ANY OPTION IF RED OUR FAVORITE IS WRONG?",
+        options: ["SELECT ANY ", "OPTION ", "RED ", "GREEN"],
+        correct: "GREEN",
     },
     {
         id: "1",
@@ -31,7 +31,7 @@ const quizArray = [
     },
     {
         id: "2",
-        question: "WHAT ARE YOU FAV COMBITINATION?",
+        question: "WHAT ARE YOU FAV COMBINATION?",
         options: ["TEA & SAMOSA", "THUMSUP & BIRYANI", "BEER & BIRYANI", "WINE & PASTA"],
         correct: "WINE & PASTA",
     },
