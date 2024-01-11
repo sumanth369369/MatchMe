@@ -11,7 +11,7 @@ let startScreen = document.querySelector(".start-screen");
 let startButton = document.getElementById("start-button");
 let questionCount;
 let scoreCount = 0;
-let count = 11;
+let count = 6;
 let countdown;
 
 //Questions and Options Array
@@ -98,14 +98,14 @@ nextBtn.addEventListener(
             scoreContainer.classList.remove("hide");
             //user score
             userScore.innerHTML =
-                "Your score is " + scoreCount + " out of " + questionCount;
+                "Your Matched Ne  " + scoreCount + " / " + questionCount;
         } else {
             //display questionCount
             countOfQuestion.innerHTML =
                 questionCount + 1 + " of " + quizArray.length + " Question";
             //display quiz
             quizDisplay(questionCount);
-            count = 11;
+            count = 6;
             clearInterval(countdown);
             timerDisplay();
         }
